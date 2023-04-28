@@ -6376,35 +6376,37 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\admin\\.nuget\\packages\\": {}
+    "C:\\Users\\DELL\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Amar\\Debug\\Apps\\1\\120\\202304264914\\111222333\\111222333.API\\111222333.API.csproj",
+      "projectUniqueName": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\120\\202304283418\\111222333\\111222333.API\\111222333.API.csproj",
       "projectName": "111222333.API",
-      "projectPath": "C:\\Amar\\Debug\\Apps\\1\\120\\202304264914\\111222333\\111222333.API\\111222333.API.csproj",
-      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Amar\\Debug\\Apps\\1\\120\\202304264914\\111222333\\111222333.API\\obj\\",
+      "projectPath": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\120\\202304283418\\111222333\\111222333.API\\111222333.API.csproj",
+      "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+      "outputPath": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\120\\202304283418\\111222333\\111222333.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Amar\\Debug\\Apps\\1\\120\\202304264914\\111222333\\111222333.DTO\\111222333.DTO.csproj": {
-              "projectPath": "C:\\Amar\\Debug\\Apps\\1\\120\\202304264914\\111222333\\111222333.DTO\\111222333.DTO.csproj"
+            "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\120\\202304283418\\111222333\\111222333.DTO\\111222333.DTO.csproj": {
+              "projectPath": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\120\\202304283418\\111222333\\111222333.DTO\\111222333.DTO.csproj"
             },
-            "C:\\Amar\\Debug\\Apps\\1\\120\\202304264914\\111222333\\111222333.Service\\111222333.Service.csproj": {
-              "projectPath": "C:\\Amar\\Debug\\Apps\\1\\120\\202304264914\\111222333\\111222333.Service\\111222333.Service.csproj"
+            "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\120\\202304283418\\111222333\\111222333.Service\\111222333.Service.csproj": {
+              "projectPath": "D:\\Projects\\Microsoft\\API\\dotnet_service\\Application.API\\SacralAI.Code.Scheduler\\bin\\Debug\\Apps\\1\\120\\202304283418\\111222333\\111222333.Service\\111222333.Service.csproj"
             }
           }
         }
@@ -6451,7 +6453,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   },

@@ -1,40 +1,29 @@
-﻿using 111222333.DTO;
-
-namespace 111222333
+﻿namespace 111222333
 {
-    public class BatchProcessRepository
+    public class BatchProcessRepository : IBatchProcessRepository
     {
-        private BATCH_PROCESS.BatchProcess _batchProcess;
-
-        public BatchProcessRepository(BATCH_PROCESS.BatchProcess batchProcess)
+        public async Task<111222333.DTO.BatchProcess> GetBatchProcessByIdAsync(int id)
         {
-            _batchProcess = batchProcess;
+            //TODO: Implement GetBatchProcessByIdAsync()
+            return null;
         }
 
-        public BatchProcess GetById(int id)
+        public async Task<int> CreateBatchProcessAsync(111222333.DTO.BatchProcess batchProcess)
         {
-            return _batchProcess.Where(bp => bp.Id == id).SingleOrDefault();
+            //TODO: Implement CreateBatchProcessAsync()
+            return 0;
         }
 
-        public IEnumerable<BatchProcess> GetAll()
+        public async Task<bool> UpdateBatchProcessAsync(111222333.DTO.BatchProcess batchProcess)
         {
-            return _batchProcess.ToList();
+            //TODO: Implement UpdateBatchProcessAsync()
+            return false;
         }
 
-        public void Add(BatchProcess batchProcess)
+        public async Task<bool> DeleteBatchProcessAsync(int id)
         {
-            _batchProcess.Add(batchProcess);
-        }
-
-        public void Update(BatchProcess batchProcess)
-        {
-            _batchProcess.Update(batchProcess);
-        }
-
-        public void Delete(int id)
-        {
-            var batchProcess = GetById(id);
-            _batchProcess.Remove(batchProcess);
+            //TODO: Implement DeleteBatchProcessAsync()
+            return false;
         }
     }
 }
