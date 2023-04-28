@@ -26,3 +26,11 @@ D:\Projects\Microsoft\API\dotnet_service\Application.API\SacralAI.Code.Scheduler
 D:\Projects\Microsoft\API\dotnet_service\Application.API\SacralAI.Code.Scheduler\bin\Debug\Apps\1\120\202304283418\111222333\111222333.DTO\obj\Debug\net7.0\111222333.DTO.dll
 D:\Projects\Microsoft\API\dotnet_service\Application.API\SacralAI.Code.Scheduler\bin\Debug\Apps\1\120\202304283418\111222333\111222333.DTO\obj\Debug\net7.0\refint\111222333.DTO.dll
 D:\Projects\Microsoft\API\dotnet_service\Application.API\SacralAI.Code.Scheduler\bin\Debug\Apps\1\120\202304283418\111222333\111222333.DTO\obj\Debug\net7.0\111222333.DTO.pdb
+D:\Projects\Microsoft\API\dotnet_service\Application.API\SacralAI.Code.Scheduler\bin\Debug\Apps\1\117\202304284554\111222333\111222333.DTO\obj\Debug\net7.0\111222333.DTO.csproj.AssemblyReference.cache
+D:\Projects\Microsoft\API\dotnet_service\Application.API\SacralAI.Code.Scheduler\bin\Debug\Apps\1\117\202304284554\111222333\111222333.DTO\obj\Debug\net7.0\111222333.DTO.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Microsoft\API\dotnet_service\Application.API\SacralAI.Code.Scheduler\bin\Debug\Apps\1\117\202304284554\111222333\111222333.DTO\obj\Debug\net7.0\111222333.DTO.AssemblyInfoInputs.cache
+D:\Projects\Microsoft\API\dotnet_service\Application.API\SacralAI.Code.Scheduler\bin\Debug\Apps\1\117\202304284554\111222333\111222333.DTO\obj\Debug\net7.0\111222333.DTO.AssemblyInfo.cs
+D:\Projects\Microsoft\API\dotnet_service\Application.API\SacralAI.Code.Scheduler\bin\Debug\Apps\1\117\202304284554\111222333\111222333.DTO\obj\Debug\net7.0\111222333.DTO.csproj.CoreCompileInputs.cache
+D:\Projects\Microsoft\API\dotnet_service\Application.API\SacralAI.Code.Scheduler\bin\Debug\Apps\1\117\202304284554\111222333\111222333.DTO\obj\Debug\net7.0\111222333.DTO.dll
+D:\Projects\Microsoft\API\dotnet_service\Application.API\SacralAI.Code.Scheduler\bin\Debug\Apps\1\117\202304284554\111222333\111222333.DTO\obj\Debug\net7.0\refint\111222333.DTO.dll
+D:\Projects\Microsoft\API\dotnet_service\Application.API\SacralAI.Code.Scheduler\bin\Debug\Apps\1\117\202304284554\111222333\111222333.DTO\obj\Debug\net7.0\111222333.DTO.pdb

@@ -21,3 +21,6 @@ C:\Amar\Debug\Apps\1\120\202304264914\111222333\111222333.Service\obj\Debug\net7
 D:\Projects\Microsoft\API\dotnet_service\Application.API\SacralAI.Code.Scheduler\bin\Debug\Apps\1\120\202304283418\111222333\111222333.Service\obj\Debug\net7.0\111222333.Service.dll
 D:\Projects\Microsoft\API\dotnet_service\Application.API\SacralAI.Code.Scheduler\bin\Debug\Apps\1\120\202304283418\111222333\111222333.Service\obj\Debug\net7.0\refint\111222333.Service.dll
 D:\Projects\Microsoft\API\dotnet_service\Application.API\SacralAI.Code.Scheduler\bin\Debug\Apps\1\120\202304283418\111222333\111222333.Service\obj\Debug\net7.0\111222333.Service.pdb
+D:\Projects\Microsoft\API\dotnet_service\Application.API\SacralAI.Code.Scheduler\bin\Debug\Apps\1\117\202304284554\111222333\111222333.Service\obj\Debug\net7.0\111222333.Service.dll
+D:\Projects\Microsoft\API\dotnet_service\Application.API\SacralAI.Code.Scheduler\bin\Debug\Apps\1\117\202304284554\111222333\111222333.Service\obj\Debug\net7.0\refint\111222333.Service.dll
+D:\Projects\Microsoft\API\dotnet_service\Application.API\SacralAI.Code.Scheduler\bin\Debug\Apps\1\117\202304284554\111222333\111222333.Service\obj\Debug\net7.0\111222333.Service.pdb

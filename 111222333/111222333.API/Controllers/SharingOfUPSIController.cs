@@ -1,52 +1,85 @@
-﻿using System;
-using System.Collections.Generic;
-using 111222333.DTOSharingOfUPSI;
+﻿using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using 111222333.DTO;
+using 111222333.Service;
 using Microsoft.AspNetCore.Mvc;
 
 namespace 111222333.API
 {
     [Route("api/[controller]")]
-    public class SharingOfUPSIController : Controller
+    [ApiController]
+    public class SharingOfUpsiController : ControllerBase
     {
-        private readonly Service111222333 _service;
+        private readonly SharingOfUpsiService _sharingOfUpsiService;
 
-        public SharingOfUPSIController(Service111222333 service)
+        public SharingOfUpsiController(SharingOfUpsiService sharingOfUpsiService)
         {
-            _service = service;
+            _sharingOfUpsiService = sharingOfUpsiService;
         }
 
         [HttpGet]
-        public IActionResult GetAll()
+        public async Task<ActionResult<ICollection<SharingOfUpsiModel>>> GetAllAsync()
         {
-            var models = _service.GetAll();
-            return Ok(models);
+            var result = await _sharingOfUpsiService.GetAllAsync();
+
+            if (result == null || !result.Any())
+            {
+                return NotFound();
+            }
+
+            return Ok(result);
         }
 
         [HttpGet("{id}")]
-        public IActionResult GetById(int id)
+        public async Task<ActionResult<SharingOfUpsiModel>> GetByIdAsync(int id)
         {
-            var model = _service.GetById(id);
-            return Ok(model);
+            var result = await _sharingOfUpsiService.GetByIdAsync(id);
+
+            if (result == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(result);
         }
 
         [HttpPost]
-        public IActionResult Insert([FromBody]Model model)
+        public async Task<ActionResult<SharingOfUpsiModel>> CreateAsync(SharingOfUpsiModel model)
         {
-            _service.Insert(model);
-            return Ok();
+            var result = await _sharingOfUpsiService.CreateAsync(model);
+
+            if (result == null)
+            {
+                return BadRequest();
+            }
+
+            return Ok(result);
         }
 
         [HttpPut]
-        public IActionResult Update([FromBody]Model model)
+        public async Task<ActionResult<SharingOfUpsiModel>> UpdateAsync(SharingOfUpsiModel model)
         {
-            _service.Update(model);
-            return Ok();
+            var result = await _sharingOfUpsiService.UpdateAsync(model);
+
+            if (result == null)
+            {
+                return BadRequest();
+            }
+
+            return Ok(result);
         }
 
         [HttpDelete("{id}")]
-        public IActionResult Delete(int id)
+        public async Task<ActionResult> DeleteAsync(int id)
         {
-            _service.Delete(id);
+            var isSuccess = await _sharingOfUpsiService.DeleteAsync(id);
+
+            if (!isSuccess)
+            {
+                return NotFound();
+            }
+
             return Ok();
         }
     }
