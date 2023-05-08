@@ -1,0 +1,44 @@
+XML File:
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>48.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>UPSI Sharing</masterLabel>
+    <description>Compliance Officer Sharing Form</description>
+    <targets>
+        <target>lightning__AppPage</target>
+        <target>lightning__RecordPage</target>
+        <target>lightning__HomePage</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__AppPage">
+            <property name="dateSharingUPSI" type="String" label="Date of Sharing UPSI" description="Enter Date of sharing UPSI"/>
+            <property name="personsSharedWith" type="String" label="Persons Shared With" description="Enter Persons Shared With"/>
+            <property name="natureOfUPSI" type="String" label="Nature of UPSI" description="Enter Nature of UPSI"/>
+            <property name="detailsOfUPSI" type="String" label="Details of UPSI Shared" description="Enter Details of UPSI Shared"/>
+            <property name="legitimatePurposeOfSharingUPSI" type="String" label="Legitimate Purpose of Sharing UPSI" description="Enter Legitimate Purpose of Sharing UPSI"/>
+            <property name="attachment" type="String" label="Attachment" description="Enter Attachment"/>
+            <property name="supplierOfInformation" type="String" label="Supplier of Information" description="Enter Supplier of Information"/>
+            <property name="nameOfPerson" type="String" label="Name of the Person" description="Enter Name of the Person"/>
+            <property name="panOrOtherIdentifier" type="String" label="PAN/any other identifier" description="Enter PAN/any other identifier"/>
+            <property name="receiverOfInformation" type="String" label="Receiver of Information" description="Enter Receiver of Information"/>
+            <property name="nameOfReceiver" type="String" label="Name of the Person" description="Enter Name of the Person"/>
+            <property name="panOrOtherIdentifierReceiver" type="String" label="PAN/any other identifier" description="Enter PAN/any other identifier"/>
+            <property name="auditTrail" type="String" label="Audit Trail" description="Enter Audit Trail"/>
+            <property name="notes" type="String" label="Notes" description="Enter Notes"/>
+            <property name="sendEmail" type="Boolean" label="Send Email" description="Send Email"/>
+            <property name="emailSelectedPersons" type="String" label="Email Selected Persons" description="Enter Email Selected Persons"/>
+            <property name="closeTradingWindow" type="Boolean" label="Close Trading Window" description="Close Trading Window"/>
+        </targetConfig>
+        <targetConfig targets="lightning__RecordPage">
+            <property name="dateSharingUPSI" type="String" label="Date of Sharing UPSI" description="Enter Date of sharing UPSI"/>
+            <property name="personsSharedWith" type="String" label="Persons Shared With" description="Enter Persons Shared With"/>
+            <property name="natureOfUPSI" type="String" label="Nature of UPSI" description="Enter Nature of UPSI"/>
+            <property name="detailsOfUPSI" type="String" label="Details of UPSI Shared" description="Enter Details of UPSI Shared"/>
+            <property name="legitimatePurposeOfSharingUPSI" type="String" label="Legitimate Purpose of Sharing UPSI" description="Enter Legitimate Purpose of Sharing UPSI"/>
+            <property name="attachment" type="String" label="Attachment" description="Enter Attachment"/>
+            <property name="supplierOfInformation" type="String" label="Supplier of Information" description="Enter Supplier of Information"/>
+            <property name="nameOfPerson" type="String" label="Name of the Person" description="Enter Name of the Person"/>
+            <property name="panOrOtherIdentifier" type="String" label="PAN/any other identifier" description="Enter PAN/any other identifier"/>
+            <property name="receiverOfInformation" type="String" label="Receiver of Information" description="Enter Receiver of Information"/>
+            <property name

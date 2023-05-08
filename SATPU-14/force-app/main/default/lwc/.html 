@@ -1,0 +1,53 @@
+<html>
+<head>
+<title>Sharing of UPSI</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<lwc-component>
+    <div class="container">
+        <h1>Sharing of UPSI</h1>
+        <div>
+            <h2>As a compliance officer I wanted to share UPSI form with designated person so that I will verify designated person valuable information.</h2>
+        </div>
+        <div>
+            <h3>Acceptance Criteria:</h3>
+            <ul>
+                <li>As a compliance officer I should be able to share UPSI form with designated person</li>
+                <li>The designated persons should be able to fill the valuable details such as Date of sharing UPSI, Persons Shared with, Nature Of UPSI, Details of UPSI Shared, Legitimate Purpose of Sharing UPSI, Attachment, Supplier of Information, Name of the Person, PAN/any other identifier, Receiver of Information, Name of the Person, PAN/any other identifier, Audit trail, Notes if any.</li>
+                <li>The designated person must enter compulsory field’s detail such as Date of sharing UPSI with time stamp, Persons Shared with, Nature Of UPSI, Details of UPSI Shared, Legitimate Purpose of Sharing UPSI.</li>
+                <li>The designated person should be able to submit or reset the UPSI from information.</li>
+                <li>As a compliance officer I should be able to send an email to the selective designative persons with whom UPSI is shared</li>
+                <li>As a Compliance Officer I should be able to get email notifications to Designated Persons after the submission of UPSI</li>
+                <li>Ability to Date of sharing UPSI with designated persons.</li>
+                <li>Ability to the compliance officer to decide with whom to share and also select all or multiple persons.</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Acceptance Testing:</h3>
+            <ul>
+                <li>Compliance officer needs to get emails when two designated persons share the sensitive information.</li>
+                <li>Designated person needs get to the email when UPSI information shared.</li>
+                <li>Compliance officer should able to close the trading window of two designated persons who shared UPSI information.</li>
+                <li>Database is accessible internally but not from outside the company firewall.</li>
+                <li>Verify to make sure the designated persons should be able to fill the valuable details such as Date of sharing UPSI, Persons Shared with, Nature Of UPSI, Details of UPSI Shared, Legitimate Purpose of Sharing UPSI, Attachment, Supplier of Information, Name of the Person, PAN/any other identifier, Receiver of Information, Name of the Person, PAN/any other identifier, Audit trail, Notes if any.</li>
+                <li>Verify to make sure that the designated person should be able to submit or reset the UPSI from information.</li>
+                <li>Verify that compliance officer should be able to send email to the selective designative persons with whom UPSI is shared</li>
+                <li>Verify that compliance officer should be able to get email notification to the designated person after the submission of UPSI.</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Definition of Done:</h3>
+            <ul>
+                <li>All user information should be accurate and up-to-date.</li>
+                <li>Compliance officer should be able to share UPSI form with designated persons.</li>
+                <li>The system should allow compliance officer needs to get emails notification when two designated persons share the sensitive information.</li>
+                <li>Check the user should be able to submit or reset the UPSI from information</li>
+                <li>Check compliance office should able to close the trading window of two designated persons who shared UPSI information.</li>
+                <li>Check the designated persons should be able to fill the valuable details such as Date of sharing UPSI, Persons Shared with, Nature Of UPSI, Details of UPSI Shared, Legitimate Purpose of Sharing UPSI, Attachment, Supplier of Information, Name of the Person, PAN/any other identifier, Receiver of Information, Name of the Person, PAN/any other identifier, Audit trail, Notes if any.</li>
+                <li>All the acceptance criteria should meet.</li>
+            </ul>
+        </div>
+    </div>
+</l
