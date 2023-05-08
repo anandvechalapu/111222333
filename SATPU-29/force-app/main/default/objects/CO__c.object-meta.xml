@@ -1,0 +1,109 @@
+(i < records.size()){
+				result.add(records.get(i));
+			}
+		}
+		return result;
+	}
+
+}
+
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>firstName</fullName>
+        <description>First Name of the Compliance Officer</description> 
+        <label>First Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>lastName</fullName>
+        <description>Last Name of the Compliance Officer</description> 
+        <label>Last Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>middleName</fullName>
+        <description>Middle Name of the Compliance Officer</description> 
+        <label>Middle Name</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>email</fullName>
+        <description>Email of the Compliance Officer</description> 
+        <label>Email</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Email</type>
+    </fields>
+    <fields>
+        <fullName>mobileNumber</fullName>
+        <description>Mobile Number of the Compliance Officer</description> 
+        <label>Mobile Number</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>phoneNumber</fullName>
+        <description>Phone Number of the Compliance Officer</description> 
+        <label>Phone Number</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>PAN</fullName>
+        <description>PAN Number of the Compliance Officer</description> 
+        <label>PAN Number</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Aadhar</fullName>
+        <description>Aadhar Number of the Compliance Officer</description> 
+        <label>Aadhar Number</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>otherID</fullName>
+        <description>Other ID of the Compliance Officer</description> 
+        <label>Other ID</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>action</fullName>
+        <description>action taken by the Compliance Officer</description> 
+        <label>Action Taken</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>isArchived</fullName>
+        <description>Is Compliance Officer Archived or not</description> 
+        <label>Is Archived</label>
+        <required>false</required>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>role</fullName>
+        <description>Role of the Compliance Officer</description> 
+        <label>Role</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <label>Compliance Officer List</label>
+    <pluralLabel>Compliance Officer Lists</pluralLabel>
+</CustomObject>

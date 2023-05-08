@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApexClass xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>47.0</apiVersion>
+    <status>Active</status>
+    <description>This class encapsulates the logic for Admin to view Compliance Officer list.</description>
+    <userStory>As a admin I want to view compliance officer list features of application so that I can view records.</userStory>
+    <acceptanceCriteria>
+        <criteria>The admin should be able to view compliance officer list.</criteria>
+        <criteria>The list should have following Colum details such as first name, last name, middle name, email, mobile number, phone number, PAN, Aadhar, Other ID, action.</criteria>
+        <criteria>Ability to import document file PDFs, excel.</criteria>
+        <criteria>The admin should have search option by username and email.</criteria>
+        <criteria>The list should show minimum 10 entities as and also have dropdown option for 20, 40 records or max 100 entities that user can view.</criteria>
+        <criteria>The admin should have pagination option to view the record.</criteria>
+        <criteria>The admin should able to select any compliance officer from list also he should edit his details or archive the user.</criteria>
+        <criteria>The admin should be able to change the role of any user when he will edit user details.</criteria>
+        <criteria>The admin should have option to add new compliance officer.</criteria>
+    </acceptanceCriteria>
+    <acceptanceTesting>
+        <criteria>Verify to make sure the admin should be able to view compliance officer List.</criteria>
+        <criteria>Verify to make sure the admin should be able to add the new compliance offficer.</criteria>
+        <criteria>Verify to make sure the admin should be able to add n-number of compliance officer.</criteria>
+        <criteria>Verify to make sure that all necessary user information such as first name, last name, middle name, email, mobile number, phone number, PAN, Aadhar, Other ID, action, and action is visible.</criteria>
+        <criteria>Verify to make sure that admin should have pagination option to view the record.</criteria>
+        <criteria>Verify to make sure that add new compliance officer option addition button working properly.</criteria>
+        <criteria>Verify to make sure that the list should show entities as per the given limit conditions.</criteria>
+        <criteria>The import data file should be in the correct format (e.g., PDF, Excel).</criteria>
+    </acceptanceTesting>
+    <definitionOfDone>
+        <criteria>All user information should be accurate and up-to-date.</criteria>
+        <criteria>The system validate the user import data file in the correct format (e.g., PDF, Excel).</criteria>
+        <criteria>The list should be generated without any errors or warnings.</criteria>
+        <criteria>The report should include all necessary user information such as such as first name, last name, middle name, email, mobile number, phone number, PAN, Aadhar, Other ID, action</criteria>
+        <criteria>The List should be formatted and organized in a clear and easy-to-read manner.</criteria>
+        <criteria>The list should be accessible to authorized users only.</criteria>
+        <criteria>The List should be tested and accurate.</criteria>
+        <criteria>All the acceptance criteria should meet.</criteria>
+    </definitionOfDone>
+</ApexClass>
