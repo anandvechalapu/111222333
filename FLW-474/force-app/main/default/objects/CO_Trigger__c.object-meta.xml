@@ -1,43 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
-        <fullName>Reopen_Claim__c</fullName>
+        <fullName>Approver__c</fullName>
         <externalId>false</externalId>
-        <label>Reopen Claim</label>
+        <label>Approver</label>
         <required>true</required>
-        <trackTrending>false</trackTrending>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
-        <fullName>Status__c</fullName>
-        <externalId>false</externalId>
-        <label>Status</label>
-        <required>true</required>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-    </fields>
-    <fields>
-        <fullName>Decision__c</fullName>
-        <externalId>false</externalId>
-        <label>Decision</label>
-        <required>true</required>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-    </fields>
-    <fields>
-        <fullName>Approver_Notes__c</fullName>
-        <externalId>false</externalId>
-        <label>Approver Notes</label>
-        <required>true</required>
-        <trackTrending>false</trackTrending>
-        <type>TextArea</type>
-    </fields>
-    <fields>
-        <fullName>Maker__c</fullName>
-        <externalId>false</externalId>
-        <label>Maker</label>
-        <required>true</required>
-        <trackTrending>false</trackTrending>
         <type>Lookup</type>
+        <referenceTo>User</referenceTo>
+    </fields>
+    <fields>
+        <fullName>Approver_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Approver Name</label>
+        <required>false</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>is_Frozen__c</fullName>
+        <externalId>false</externalId>
+        <label>Is Frozen</label>
+        <required>true</required>
+        <type>Checkbox</type>
     </fields>
 </CustomObject>
