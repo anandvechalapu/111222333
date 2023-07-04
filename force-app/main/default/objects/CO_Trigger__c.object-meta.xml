@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
-    <nameField>Name</nameField>
     <fields>
         <fullName>Loan_Tenure__c</fullName>
         <externalId>false</externalId>
@@ -11,14 +10,14 @@
     <fields>
         <fullName>Member_Master_Policy_No__c</fullName>
         <externalId>false</externalId>
-        <label>Member Master Policy No</label>
+        <label>Member Master Policy No.</label>
         <required>true</required>
         <type>Text</type>
     </fields>
     <fields>
         <fullName>Spouse_Master_Policy_No__c</fullName>
         <externalId>false</externalId>
-        <label>Spouse Master Policy No</label>
+        <label>Spouse Master Policy No.</label>
         <required>true</required>
         <type>Text</type>
     </fields>
