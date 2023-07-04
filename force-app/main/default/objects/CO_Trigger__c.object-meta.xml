@@ -1,49 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
-    <deploymentStatus>Deployed</deploymentStatus>
-    <fields>
-        <fullName>Application_ID__c</fullName>
-        <externalId>false</externalId>
-        <label>Application ID</label>
-        <length>50</length>
-        <required>true</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-    </fields>
+    <nameField>Name</nameField>
     <fields>
         <fullName>Loan_Tenure__c</fullName>
         <externalId>false</externalId>
         <label>Loan Tenure</label>
-        <length>50</length>
         <required>true</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
+        <type>Number</type>
     </fields>
     <fields>
         <fullName>Member_Master_Policy_No__c</fullName>
         <externalId>false</externalId>
-        <label>Member Master Policy No.</label>
-        <length>50</length>
+        <label>Member Master Policy No</label>
         <required>true</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
         <type>Text</type>
     </fields>
     <fields>
         <fullName>Spouse_Master_Policy_No__c</fullName>
         <externalId>false</externalId>
-        <label>Spouse Master Policy No.</label>
-        <length>50</length>
+        <label>Spouse Master Policy No</label>
         <required>true</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
         <type>Text</type>
     </fields>
-    <label>COI</label>
-    <nameField>
-        <label>COI</label>
-        <type>Text</type>
-    </nameField>
 </CustomObject>
