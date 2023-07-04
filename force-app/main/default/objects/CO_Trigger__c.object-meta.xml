@@ -4,27 +4,14 @@
         <fullName>Loan_Tenure__c</fullName>
         <externalId>false</externalId>
         <label>Loan Tenure</label>
-        <length>255</length>
         <required>true</required>
-        <trackHistory>false</trackHistory>
-        <type>Text</type>
+        <type>Number</type>
     </fields>
     <fields>
-        <fullName>Member_Wise_Master_Policy_No__c</fullName>
+        <fullName>Member_Spouse_Wise_Master_Policy_No__c</fullName>
         <externalId>false</externalId>
-        <label>Member Wise Master Policy No.</label>
-        <length>255</length>
+        <label>Member/Spouse Wise Master Policy No.</label>
         <required>true</required>
-        <trackHistory>false</trackHistory>
-        <type>Text</type>
-    </fields>
-    <fields>
-        <fullName>Spouse_Wise_Master_Policy_No__c</fullName>
-        <externalId>false</externalId>
-        <label>Spouse Wise Master Policy No.</label>
-        <length>255</length>
-        <required>true</required>
-        <trackHistory>false</trackHistory>
         <type>Text</type>
     </fields>
 </CustomObject>
