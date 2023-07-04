@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <fields>
-        <fullName>Name</fullName>
+        <fullName>Loan_Tenure_in_Years__c</fullName>
         <externalId>false</externalId>
-        <label>Name</label>
-        <required>true</required>
-        <type>Text</type>
-    </fields>
-    <fields>
-        <fullName>Loan_Tenure__c</fullName>
-        <externalId>false</externalId>
-        <label>Loan Tenure</label>
+        <label>Loan Tenure in Years</label>
         <required>true</required>
         <type>Number</type>
     </fields>
     <fields>
-        <fullName>Member_Spouse_wise_Master_Policy_No__c</fullName>
+        <fullName>Member_Master_Policy_Number__c</fullName>
         <externalId>false</externalId>
-        <label>Member/Spouse wise Master Policy No.</label>
+        <label>Member Master Policy Number</label>
+        <required>true</required>
+        <type>Text</type>
+    </fields>
+    <fields>
+        <fullName>Spouse_Master_Policy_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>Spouse Master Policy Number</label>
         <required>true</required>
         <type>Text</type>
     </fields>
